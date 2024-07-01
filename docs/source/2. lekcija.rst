@@ -1,0 +1,63 @@
+2. lekcija
+==========
+
+Celi i realni brojevi
+/////////////////////
+
+Do sada smo u zadacima koristili samo prirodne brojeve. Jezik Python podržava i rad sa celim brojevima i oni se zapi-suju na isti način kao u matematici. Na primer, vrednost izraza 3 - 8 = -5 dok je vrednost izraza (-3) - (-8) = 5.
+
+**Realne brojeve je takođe veoma jednostavno koristiti, jedino što se umesto decimalnog zareza na koji smo navi-kli u matematici mora koristiti decimalna tačka. Tako se, na primer, broj 2,5 zapisuje kao 2.5.**
+
+Zadatak 1. - Kupovina namirnica
+*******************************
+
+| Marko je kupio dva pakovanja salame, jedno pakovanje sira i tri pakovanja šunke. Koliko je teška kesa koju nosi kući? 
+| **Ulaz**
+| Na standardnom ulazu unose se vrednosti mase jednog pakovanja salame, sira i šunke.
+| **Izlaz**
+| Težina kese sa svim namirnicama koje je Marko kupio.
+| **Ulaz:**   0.25   0.31   0.42   0.12   0.56   0.93
+| **Izlaz:**   2.07   3.59
+
+Rešenje:
+--------
+
+| salama=float(input(\"Unesite masu salame: \"))
+| sir=float(input(\"Unesite masu sira: \"))
+| sunka=float(input(\"Unesite masu šunke: \"))
+| tezina = 2 * salama + sir + 3 * sunka
+| print(\"Torba sa namirnicama je teška:\", 
+| round(tezina,2),\"kilograma.\")
+| input()
+
+Realno deljenje
+///////////////
+
+Realnim deljenjem se mogu deliti i realni i celi brojevi, a rezultat je realan broj. Na primer, ako se koristi realno delje-nje tada je: 7,5 : 2,5 = 3 dok je 5 : 2 = 2,5. Realno deljenje se u jeziku Python3 obeležava znakom /. Tako je vrednost izraza 7.5 / 2.5 = 3.0.
+
+Zadatak 2. - Prosek skokova u dalj
+**********************************
+
+Napisati program za izračunavanje proseka skokova u dalj. U kvalifikacijama svaki atletičar skače tri skoka i potrebno je za svakog izračunati prosek. Koliko je iznosio prosečni skok atletičara?
+Ulaz
+Na standardnom ulazu unose se vrednosti dužine skokova za tri serije.
+Izlaz
+Prosečna dužina skoka atletičara.
+Ulaz: 	8.12	8.23	8.17		8.21	8.49	8.50
+Izlaz: 	8.17				8.4
+Rešenje:
+PrviSkok=float(input("Unesite dužinu prvog skoka [m]: "))
+DrugiSkok=float(input("Unesite dužinu drugog skoka [m]: "))
+TreciSkok=float(input("Unesite dužinu trećeg skoka [m]: "))
+ProsecanSkok=(PrviSkok+DrugiSkok+TreciSkok)/3
+print("Prosečan skok atletičara iznosi:", round(ProsecanSkok,2),"metara.")
+input()
+Celobrojno i realno deljenje
+U većini programskih jezika razlikuju se dva oblika deljenja: realno i celobrojno. Rezultat (količnik) realnog deljenja je realan broj (na primer, kada se 13 realno deli sa 4, dobija se količnik 3,25), dok je kod celobrojnog deljenja količnik uvek ceo broj, pri čemu je moguće da postoji i celobrojni ostatak (na primer, kada se 13 celobrojno deli sa 4, dobija se količnik 3 i ostatak 1).
+Koliko puta se 4 sadrži u broju 13?  3						Python: 13//4=3
+Koliki je njegov ostatak? 3 * 4 = 12 do 13 nam fali 1, 1 je ostatak		Python: 13%4=1
+/ - predstavlja deljenje dva broja, realni količnik
+// - predstavlja kada se dva broja celobrojno dele, celobrojni količnik
+% - predstavlja ostatak kod deljenje dva celobrojna broja 
+U matematici se znak % koristi da označi procenat (stoti deo nečega). Korišćenje istog znaka za ostatak pri deljenju je zapravo nesrećna okolnost i treba biti obazriv da se ta dva zapravo nepovezana pojma slučajno ne pomešaju.
+Primeri:

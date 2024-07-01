@@ -1,0 +1,24 @@
+.. _poglavlje1:
+
+Promocija SŠUP „Jakov Nenadović“ u Sremskoj Kamenici
+====================================================
+Učenici **osmog razreda** imali su *priliku* da se u ponedeljak, 5. februara 2024. godine upoznaju sa uslovima za upis u Srednju školu unutrašnjih poslova.
+
+Novi podnaslov
+--------------
+Kroz razgovor i prezentaciju videli su uslove za upis, te kako izgleda prijemni ispit, koji su opšteobrazovni i stručni predmeti tokom četvorogodišnjeg školovanja kao i kako protiče jedan dan u kampusu škole.
+Nabrajanje
+
+ * prvi nivo
+ * prvi nivo
+
+Još jedan podnaslov
+-------------------
+O svim dodatnim informacijama, konkursu i formularima učenici i roditelji se mogu obavestiti preko sajtova Ministarstva prosvete, nauke i tehnološkog razvoja, Ministarstva unutrašnjih poslova i na sajtu Srednje škole unutrašnjih poslova „Jakov Nenadović“.
+
+.. figure:: slike/A1.jpg
+   :alt: Jubler konfiguracija
+   :height: 540
+   :width: 965
+   
+   *Ovo je caption*
